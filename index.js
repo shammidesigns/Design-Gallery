@@ -6,3 +6,11 @@ document.getElementById("toggleButton").addEventListener("click", function() {
 document.addEventListener("contextmenu", function(event) {
     event.preventDefault();
 });
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js")
+      .then(() => console.log("Service Worker Registered"))
+      .catch((error) => console.log("Service Worker Registration Failed:", error));
+  });
+}
