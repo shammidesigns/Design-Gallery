@@ -98,16 +98,6 @@ main {
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    user-select: none;
-    pointer-events: none;
-    object-fit: contain;
-}
-
-.gallery img {
     -webkit-user-drag: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -185,7 +175,7 @@ main {
 
     .gallery {
         width: 100%;
-        margin-top: -40px;
+        margin-top: -45px;
     }
     
     .footer-style {
@@ -198,6 +188,7 @@ main {
     
     .gallery img {
         border-radius: 1px;
+        box-shadow: none;
     }
     
     .top-right-icon {
