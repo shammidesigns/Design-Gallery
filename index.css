@@ -213,4 +213,8 @@ main {
     .floating-bar p {
         font-size: 9px;
     }
+
+    .top-right-icon:hover {
+        transform: none;
+    }
   }
