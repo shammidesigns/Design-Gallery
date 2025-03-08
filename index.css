@@ -157,11 +157,11 @@ main {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     h3 {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     header {
@@ -210,6 +210,6 @@ main {
     }
     
     .floating-bar p {
-        font-size: 8px;
+        font-size: 9px;
     }
   }
