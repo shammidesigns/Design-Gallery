@@ -3,14 +3,11 @@
 A simple website showcasing my design works. The website is built using **HTML, CSS, and JavaScript** and is deployed on **GitHub Pages**.
 
 ## 🌐 Live Demo
-🔗 [View the website here](https://your-github-username.github.io/Designs/)  
+🔗 [View the website here](https://adilblsy.github.io/Designs/)  
 
 ## 🚀 Features
 - Displays design works in a clean gallery format  
 - Responsive layout
-
-## 📷 Preview
-![Website Preview](preview.png)  
 
 ## 🛠️ Technologies Used
 - **HTML** - Structure of the website  
