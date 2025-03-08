@@ -70,7 +70,7 @@ footer {
 main {
     flex: 1;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ main {
     gap: 10px;
     justify-items: center;
     align-items: center;
-    width: 90%;
+    width: 95%;
     max-width: 2560px;
     margin: auto;
 }
@@ -164,3 +164,40 @@ main {
     transition: color 0.3s ease-in-out;
     color: #ff2e82;
 }
+
+@media (max-width: 480px) {    
+    header img {
+        height: 40px;
+        width: 25px;
+    }
+    
+    .footer-style {
+        font-size: 13px;
+    }
+    
+    .gallery {
+        gap: 2px;
+    }
+    
+    .gallery img {
+        border-radius: 1px;
+    }
+    
+    .top-right-icon {
+        height: 20px;
+        width: auto;
+    }
+    
+    .floating-bar {
+        width: 150px;
+    }
+    
+    .floating-bar img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .floating-bar p {
+        font-size: 12px;
+    }
+  }
