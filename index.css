@@ -200,6 +200,8 @@ main {
     
     .floating-bar {
         width: 150px;
+        top: 35px;
+        right: 15px;
     }
     
     .floating-bar img {
